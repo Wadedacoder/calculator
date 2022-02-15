@@ -1,0 +1,62 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid grey;
+    width:500px;
+    padding-bottom: 10px;
+    background-color: grey;
+
+}
+
+.screen{
+    padding-top: 1%;
+    height: 80px;
+    background-color: honeydew;
+    gap:6px;
+    align-items: flex-end;
+    display:flex;
+    flex-direction: column;
+    border: 2px solid grey;
+}
+
+.btns-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: grey;
+}
+#clear{
+    grid-column: 1 /span 4;
+    padding:2%;
+    margin-top: 4px;
+}
+.btn{
+    padding: 4%;
+    margin: 0px 4px;
+}
+#OldExp{
+    height: 25%;
+}
+
+#CurExp{
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: large;
+}
+
+p{
+    text-align: center;
+}
